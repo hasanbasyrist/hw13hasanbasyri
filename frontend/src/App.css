@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control input[type="text"],
+  .form-control input[type="email"],
+  .form-control input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .form-control input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-control input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  .book {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .book h2 {
+    margin-top: 0;
+  }
+  
+  .book p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .book img {
+    max-width: 100%;
+  }
+  
+  .book button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book button:hover {
+    background-color: #444;
+  }
+  
+  .book form {
+    margin-top: 1rem;
+  }
+  
+  .book form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book form input[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  .error {
+    color: red;
+  }
+  
